@@ -1,0 +1,80 @@
+body {
+  background-color: #efeee6;
+}
+
+.group1 {
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 30px 60;
+  /*background-color: #0e3a7b;*/
+  margin: 0;
+}
+
+.nav a {
+  color: hsl(194, 55%, 56%);
+  text-decoration: none;
+  margin: 0 10px;
+  position: relative;
+}
+
+.nav a:hover {
+  color: #f10f0f;
+}
+.group1 h1 {
+  line-height: 50px;
+  color: hsl(194, 55%, 56%);
+  font-size: 45px;
+  font-weight: bold;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #efeee6;
+  position: fixed;
+  top: 0;
+  margin-right: 50px;
+  width: 100%;
+}
+.group1 #2 {
+  max-width: inherit;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.group1 #3 form .name {
+  padding-right: 10px;
+  /*font-size: 14px;
+  height: 45px;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+*/
+}
+.group2 h1 {
+  line-height: 50px;
+  color: hsl(194, 55%, 56%);
+  font-size: 45px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.group2 #1 img {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+.group2 #1 .plain image {
+  margin-left: 0%;
+}
