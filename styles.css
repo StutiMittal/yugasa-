@@ -78,3 +78,36 @@ body {
 .group2 #1 .plain image {
   margin-left: 0%;
 }
+.footer-content {
+  max-width: 1170px;
+  width: 100%;
+  background: #35373a;
+  padding: 20px 0 20px;
+}
+.footer-content .footer-column h3 {
+  margin: 3px 0 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  padding-right: 5px;
+  font-weight: bold;
+  text-transform: none;
+}
+.footer-column a {
+  color: #fff;
+}
+.last h1 {
+  line-height: 50px;
+  color: hsl(194, 55%, 56%);
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+.last h3 {
+  font-size: 18px;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 25px;
+}
